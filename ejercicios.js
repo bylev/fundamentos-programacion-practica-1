@@ -17,7 +17,7 @@ function miInformacion() {
   
   const nombre = "Michelle";
   const edad = 24;
-  const carrera = "Desarrollo de Software y Negocios Digitales";
+  const carrera = "TSU";
   
   return { nombre, edad, carrera };
 }
@@ -31,13 +31,15 @@ function miInformacion() {
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
   
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a+b;
+  const resta = a-b;
+  const multiplicacion = a*b;
+  const division = a/b;
   
+
   return { suma, resta, multiplicacion, division };
 }
+
 
 /**
  * Ejercicio 1.3: Ãrea de un rectÃ¡ngulo (2 puntos)
@@ -47,9 +49,10 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
+  areaRectangulo((a*b)/2);
+
   return 0;
 }
-
 /**
  * Ejercicio 1.4: ConversiÃ³n de temperatura (3 puntos)
  * Convierte grados Celsius a Fahrenheit
