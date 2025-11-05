@@ -49,9 +49,8 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  areaRectangulo((a*b)/2);
-
-  return 0;
+  area = base * altura;
+  return area;
 }
 /**
  * Ejercicio 1.4: ConversiÃ³n de temperatura (3 puntos)
