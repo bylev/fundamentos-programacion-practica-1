@@ -172,10 +172,12 @@ function sumaHastaN(n) {
  */
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
-  //Inicializo un array vacío, y uso un bucle for que inicia en 1, y termina en 10, y aumento mi contador. Realizo la multiplicación del número por el contador.
+//Inicializo un array vacío, y uso un bucle for que inicia en 1, y termina en 10, y aumento mi contador. Realizo la multiplicación del número por el contador.
   // Cada resultado lo agrego al array usando push. Retorno el array al finalizar el bucle.
-
   const tabla = [];
+  for(let i=1; i<=10; i++){
+    tabla.push(numero *i);
+  }
   return tabla;
 }
 
