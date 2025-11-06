@@ -155,7 +155,13 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  //Inicializo mi variable suma en 0, y uso un bucle for para sumar todos los números desde 1 hasta n. 
+  // Retorno el valor que contiene suma.
+  let suma = 0;
+  for(let i =1; i<=n; i++){
+    suma+=i;
+  }
+  return suma;
 }
 
 /**
@@ -166,6 +172,9 @@ function sumaHastaN(n) {
  */
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
+  //Inicializo un array vacío, y uso un bucle for que inicia en 1, y termina en 10, y aumento mi contador. Realizo la multiplicación del número por el contador.
+  // Cada resultado lo agrego al array usando push. Retorno el array al finalizar el bucle.
+
   const tabla = [];
   return tabla;
 }
