@@ -49,6 +49,7 @@ function operacionesBasicas(a, b) {
  */
 function areaRectangulo(base, altura) {
   // TODO: Calcula y retorna el Ã¡rea (base * altura)
+  // Uso de la fórmula para calcular el área del rectángulo.
   area = base * altura;
   return area;
 }
@@ -61,6 +62,7 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversiÃ³n
+  // Uso de la fórmula para convertir Celsius a Fahrenheit
   f = (celsius*9/5)+32;
   return f;
 }
@@ -77,6 +79,7 @@ function celsiusAFahrenheit(celsius) {
 function parOImpar(numero) {
   // TODO: Usa el operador % (mÃ³dulo) para determinar si es par o impar
   // Pista: Un nÃºmero es par si numero % 2 === 0
+  //Uso de if-else para determinar si el número es par o impar. Se retorna el mensaje correspondiente.
   if(numero % 2 === 0){
     return "par";
   }else{
@@ -91,6 +94,7 @@ function parOImpar(numero) {
  */
 function evaluarNota(nota) {
   // TODO: Implementa la lÃ³gica con if/else
+    // Uso de if/else para determinar si la nota es aprobatoria o reprobatoria.
     if(nota >=60){
       return "Aprobado";
     }else{
@@ -107,6 +111,7 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
+  //Retorna el mayor de los tres números usando Math.max
   return Math.max(a,b,c)
 
 }
@@ -118,6 +123,7 @@ function mayorDeTres(a, b, c) {
  */
 function clasificarEdad(edad) {
   // TODO: Implementa la clasificaciÃ³n con if/else if/else
+  // Operador ternario que evalúa el valor de edad e imprime el mensaje correspondiente
   return mensaje = (edad <=17) ? "menor" : (edad >= 65) ? "mayor" : "adulto";
 }
 
@@ -134,7 +140,12 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  //Inicializo mi variable factorial en 1, y uso un bucle for para multiplicar todos los números desde 1 hasta n.
+  let factorial =1;
+  for(let i =1; i <= n; i++){
+    factorial *= i;
+  }
+  return factorial;
 }
 
 /**
