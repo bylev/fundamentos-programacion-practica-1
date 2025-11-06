@@ -189,7 +189,12 @@ function tablaMultiplicar(numero) {
  */
 function numerosPares(n) {
   // TODO: Crea un array con todos los nÃºmeros pares hasta n
+  //Inicializo un array vacío, y uso un bucle for que inicie en 2 y finalice hasta n, y aumente de dos en dos.
+  // Por cada iteración, se agrega el número par al array usando el push. Retorna mi valor pares.
   const pares = [];
+  for(let i=2; i<=n; i+=2){
+    pares.push(i);
+  }
   return pares;
 }
 
