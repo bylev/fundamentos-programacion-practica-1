@@ -225,7 +225,15 @@ function sumaArray(numeros) {
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  //Inicializo mis variables suma y promedio en 0, y uso un bucle for para recorrer todos los elementos del array. Se suma cada elemento a la variable suma.
+  // Y se realiza la división de suma entre la cantidad de elementos del array para obtener el promedio. Retorna el valor del promedio.
+  let promedio = 0;
+  let suma = 0;
+  for(let i = 0; i < numeros.length; i++){
+    suma += numeros[i];
+    promedio = suma / numeros.length;
+  }
+  return promedio;
 }
 
 /**
