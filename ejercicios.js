@@ -209,7 +209,13 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  //Inicializo mi variable suma en 0, y uso un bucle for para recorrer todos los elementos del array desde el índice 0 hasta el último índice.
+  // En cada iteración, sumo el valor del elemento actual a la variable suma. Retorno el valor que contiene suma.
+  let suma = 0;
+  for(let i=0; i < numeros.length; i++){
+    suma += numeros[i];
+  }
+  return suma;
 }
 
 /**
