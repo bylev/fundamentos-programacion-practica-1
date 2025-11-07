@@ -161,9 +161,9 @@ fundamentos-programacion-practica-1/
 - Arrays dinámicos con `.push()`
 - Bucles anidados para matrices.
 - Uso de `if` para evaluaciones.
-- Uso de método Math.max() para encontrar máximos.
-- Uso de método .reverse() para obtener el arreglo invertido.
-- Uso de método .map() para obtener matriz transpuesta.
+- Uso de método `Math.max()` para encontrar máximos.
+- Uso de método `.reverse()` para obtener el arreglo invertido.
+- Uso de método `.map()` para obtener matriz transpuesta.
 
 ---
 
