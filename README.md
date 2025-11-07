@@ -266,7 +266,7 @@ git log --oneline --graph --decorate
 ## 📧 Contacto
 
 - **Email Institucional:** [michelle.camara@tecdesoftware.edu.mx]
-- **GitHub:** [@TU-USUARIO](https://github.com/bylev)
+- **GitHub:** [@bylev](https://github.com/bylev)
 
 ---
 
