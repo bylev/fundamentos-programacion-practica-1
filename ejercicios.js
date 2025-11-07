@@ -63,8 +63,8 @@ function areaRectangulo(base, altura) {
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversiÃ³n
   // Uso de la fórmula para convertir Celsius a Fahrenheit
-  f = (celsius*9/5)+32;
-  return f;
+  const fahrenheit = (celsius*9/5)+32;
+  return fahrenheit;
 }
 
 // ============================================
