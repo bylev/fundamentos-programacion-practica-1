@@ -150,7 +150,7 @@ fundamentos-programacion-practica-1/
 - **Ejercicio 5.5 (Transponer Matriz)**: No quería hacerlo manual entonces investigué si habia una forma de hacerlo mediante un método. Y encontré que el método era __.map()__ por lo que usé el método para crear un nuevo array en el que itera sobre columnas para crear las filas de las matrices transpuestas.
 
 ### Lo que más me gustó
--- **Arrays Unidimensionales**: Me gustó ver la aplicación de los arreglos unidimensionales y cómo estos se recorren ya que es justo un tema de la unidad 3 en programación estructurada.
+- **Arrays Unidimensionales**: Me gustó ver la aplicación de los arreglos unidimensionales y cómo estos se recorren ya que es justo un tema de la unidad 3 en programación estructurada.
 - **Arrays Bidimensionales**: Me gustó mi primer contacto con las matrices en programación y como recorrerlas sin embargo creo que es algo complicado que puedo mejorar con más tiempo y con mucha práctica.
 - **Testing Automático**: Me gustó mucho poder correr el programa y saber si lo que hacía estaba bien o mal.
 - **Programar en JavaScript**: Nunca había usado JavaScript, había visto como declarar algunas variables con una aplicación pero nunca más lo toqué. Y ahorita que lo usé por primera vez me gustó aunque tendría que repasar los métodos.
