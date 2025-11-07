@@ -341,7 +341,7 @@ function sumaMatriz(matriz) {
  * @returns {Array<number>} - La fila especificada
  * Ejemplo: obtenerFila([[1, 2], [3, 4], [5, 6]], 1) debe retornar [3, 4]
  */
-// Uso un bucle for que recorre mi matriz y aumenta un contador. Evalúo si el contador es igual a mi indice indicado de fila, si es así retorno la matr
+// Uso un bucle for que recorre mi matriz y aumenta un contador. Evalúo si el contador es igual a mi indice indicado de fila, si es así retorno la matriz en esa posición.
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
   for(let i = 0; i < matriz.length; i++){
@@ -376,10 +376,12 @@ function obtenerColumna(matriz, indiceColumna) {
  * @returns {Array<Array<number>>} - Matriz transpuesta
  * Ejemplo: transponer([[1, 2, 3], [4, 5, 6]]) debe retornar [[1, 4], [2, 5], [3, 6]]
  */
+ // TODO: Crea la matriz transpuesta
+//Retorno la matriz transpuesta usando el método map que itera sobre las columnas de la matriz, y para cada una se crea una nueva fila con los elementos correspondientes. Formando así la matriz transpuesta.
 function transponer(matriz) {
-  // TODO: Crea la matriz transpuesta
-  const transpuesta = [];
-  return transpuesta;
+  return matriz[0].map((_, indiceColumna) =>
+    matriz.map(fila => fila[indiceColumna])
+  );
 }
 
 // ============================================
