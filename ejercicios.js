@@ -1,6 +1,6 @@
 // FUNDAMENTOS DE PROGRAMACIÃ“N - PRÃCTICA
-// Nombre del estudiante: _________________
-// Fecha: _________________
+// Nombre del estudiante: Michellle Cámara González
+// Fecha: 06/11/2025
 
 // ============================================
 // SECCIÃ“N 1: VARIABLES Y TIPOS DE DATOS (10 puntos)
@@ -320,8 +320,18 @@ function crearMatriz(filas, columnas) {
  */
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
-  // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
-  return 0;
+  // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas}
+  //Inicializo mi variable suma en 0, y uso un bucle for para recorrer las filas de mi matriz, y dentro de este, realizo otro bucle que recorre las columnas. 
+  // En este bucle for, sumo cada elemento de la matriz y retorno su valor.
+  let suma = 0;
+  
+  for (let i =0; i< matriz.length; i++){
+    for (let j=0; j< matriz[i].length; j++){
+      suma += matriz[i][j];
+    }
+
+  }
+  return suma;
 }
 
 /**
