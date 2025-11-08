@@ -144,7 +144,7 @@ fundamentos-programacion-practica-1/
 ## 💡 Aprendizajes Clave
 
 ### Lo que más me costó
--**Ejercicio 3.3 (Tabla de multiplicar)**: No sabía como colocar mis valoires al array por lo que tuve que investigar y conocí el método __push__.
+- **Ejercicio 3.3 (Tabla de multiplicar)**: No sabía como colocar mis valoires al array por lo que tuve que investigar y conocí el método __push__.
 - **Ejercicio 5.1 (Crear una matriz)**: Sabía que debía usar un for para recorrer las filas, pero se me había olvidado recorrer las columnas.
 - **Ejercicio 5.4 (Obtener una columna)**: Pensé al inicio que sería igual al ejercicio anterior pero después de intentarlo me di cuenta que no. Sino que debía recorrer la matriz, agregar mis filas y también mis columnas.
 - **Ejercicio 5.5 (Transponer Matriz)**: No quería hacerlo manual entonces investigué si habia una forma de hacerlo mediante un método. Y encontré que el método era __.map()__ por lo que usé el método para crear un nuevo array en el que itera sobre columnas para crear las filas de las matrices transpuestas.
