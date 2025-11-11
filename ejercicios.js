@@ -341,7 +341,8 @@ function sumaMatriz(matriz) {
  * @returns {Array<number>} - La fila especificada
  * Ejemplo: obtenerFila([[1, 2], [3, 4], [5, 6]], 1) debe retornar [3, 4]
  */
-// Uso un bucle for que recorre mi matriz y aumenta un contador. Evalúo si el contador es igual a mi indice indicado de fila, si es así retorno la matriz en esa posición.
+// Uso un bucle for que recorre mi matriz y aumenta un contador. 
+// Evalúo si el contador es igual a mi indice indicado de fila, si es así retorno la matriz en esa posición.
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
   for(let i = 0; i < matriz.length; i++){
